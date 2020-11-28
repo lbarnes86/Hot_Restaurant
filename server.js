@@ -20,7 +20,9 @@ app.use(function (req, res){
   res.setHeader('Content-Type', 'text/plain')
   res.write('you posted: \n')
   res.end(JSON.stringify(req.body, null, 2))
-})
+});
+
+require("./app/routing/html-routes.js")(app);
 
 
 // // Basic route that sends the user first to the AJAX Page
@@ -35,7 +37,7 @@ app.get("/reservation", function(req, res) {
   res.sendFile(path.join(__dirname, "public/reservation.html"));
 });
 
-app.post("/tables", function(req, res){
+app.post("/table", function(req, res){
   var newReservation = req.body;
   console.log(newReservation);
   res.json(newReservation);
