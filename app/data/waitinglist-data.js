@@ -1,4 +1,4 @@
-var tableArray = [
+var waitingArray = [
     {
         customerName: 'Ahmed',
         customerEmail: 'ahmed@example.com',
@@ -6,4 +6,4 @@ var tableArray = [
         phoneNumber: '000-000-0000'
     }
 ];
-module.exports = tableArray;
+module.exports = waitingArray;
