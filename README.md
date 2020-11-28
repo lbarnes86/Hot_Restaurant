@@ -8,6 +8,7 @@
 
 ## Instructions
 ```
+This app allows a restaurant to take reservations or a waiting list
 1. 
 2. 
 3. 

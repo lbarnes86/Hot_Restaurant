@@ -1,5 +1,5 @@
 var tableData = require("../data/table-data.js");
-var waitListData = require("../data/waitinglist-data.js");
+var waitlistData = require("../data/waitinglist-data.js");
 
 module.exports = function (app) {
     
@@ -8,7 +8,7 @@ module.exports = function (app) {
     });
 
     app.get("/api/waitlist" , function(req, res) {
-        res.json(waitListData);
+        res.json(waitlistData);
     });
 
     app.post("/api/tables" , function(req, res) {
@@ -16,15 +16,16 @@ module.exports = function (app) {
             tableData.push(req.body);
             res.json(true);
         } else {
-            waitListData.push(req.body);
+            waitlistData.push(req.body);
             res.json(false);
         }
     });
-    app.post('/api/clear', function() {
+    
+    app.post("/api/clear", function() {
         tableData = [];
-        waitListData = [];
+        waitlistData = [];
 
         console.log(tableData);
-        console.log(waitListData);
+        console.log(waitlistData);
     })
 }
