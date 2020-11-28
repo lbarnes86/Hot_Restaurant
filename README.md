@@ -2,8 +2,6 @@
 
 - Project Repository: https://github.com/lbarnes86/Hot_Restaurant
 
-- Project URL: https://lbarnes86.github.io/Hot_Restaurant/.
-
 - Walk-through Video: https://youtu.be/bIwPfRq6ZxM
 
 ## Instructions
