@@ -28,9 +28,9 @@ app.get("/", function(req, res) {
   res.sendFile(path.join(__dirname, "public/main.html"));
 });
 
-app.get("/tables", function(req, res) {
-  res.sendFile(path.join(__dirname, "public/table.html"));
-});
+// app.get("/tables", function(req, res) {
+//   res.sendFile(path.join(__dirname, "public/table.html"));
+// });
 app.get("/reservation", function(req, res) {
   res.sendFile(path.join(__dirname, "public/reservation.html"));
 });
