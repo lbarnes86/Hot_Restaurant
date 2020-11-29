@@ -4,16 +4,30 @@
 
 - Walk-through Video: https://youtu.be/bIwPfRq6ZxM
 
+## Description
+
+This app allows a restaurant to take reservations or a waiting list.
+
+## Table of Content
+- [Instructions](#instructions)
+- [Dependencies](#dependencies)
+- [Author](#author)
+- [Screenshots](#screenshots)
+
+
 ## Instructions
 ```
-This app allows a restaurant to take reservations or a waiting list
 1. Customers can visit the hompage to view table or make a reservation
 2. You can make a reservation and placed on the table list
 3. Reservations will book to waiting list once the tables have been filled
 ```
 
+## Dependencies
 
-### Author and Acknowledgement
+- express
+- path
+
+### Author 
 
 ```
 Author: Lloyd Barnes
